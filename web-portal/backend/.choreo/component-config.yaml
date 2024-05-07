@@ -25,11 +25,11 @@ spec:
     - name: choreo:///shoaibtest/appointment-management/jnlztz/8b1c3/v1/ORGANIZATION
       connectionConfig: 01ef0c9e-f5cd-1196-99f8-7e4c50be942c
   env:
-      - from: ServiceURL
-        to: APPOINTMENT_SERVICE_URL
-      - from: ConsumerKey
-        to: APPOINTMENTS_OAUTH_CLIENT_ID
-      - from: ConsumerSecret
-        to: APPOINTMENTS_OAUTH_CLIENT_SECRET
-      - from: TokenURL
-        to: APPOINTMENTS_OAUTH_TOKEN_URL
+  - from: ServiceURL
+    to: APPOINTMENT_SERVICE_URL
+  - from: ConsumerKey
+    to: APPOINTMENTS_OAUTH_CLIENT_ID
+  - from: ConsumerSecret
+    to: APPOINTMENTS_OAUTH_CLIENT_SECRET
+  - from: TokenURL
+    to: APPOINTMENTS_OAUTH_TOKEN_URL
